@@ -8,18 +8,11 @@ body {
   font-family: "Montserrat";
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  width: 85%;
-  font-weight: bolder;
-  color: #ffffff;
-  padding: 50px 0;
+h1,h2,h3 {
+  font-family: "Montserrat";
 }
 
 h2 {
-  font-family: "Montserrat-Bold";
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
@@ -32,6 +25,27 @@ button {
 nav {
   margin-bottom: 4.5rem;
   font-family: "Ubuntu", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px auto 20px auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 85%;
+  font-weight: bolder;
+  color: #ffffff;
+  padding: 50px 0;
 }
 
 .container-fluid {
@@ -89,19 +103,6 @@ nav {
   background-color: white;
   position: relative;
   z-index: 1;
-}
-
-h3 {
-  text-align: center;
-  margin: 20px auto 20px auto;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-p {
-  text-align: center;
-  color: #8f8f8f;
 }
 
 .features_symb {
@@ -166,12 +167,13 @@ p {
 .basement {
   padding: 7% 15%;
   margin: 0 auto;
-
 }
-.cta-header{
+
+.cta-header {
   font-weight: bold;
   font-size: 3.5rem;
 }
+
 .btn-bellow {
   height: 40px;
   margin: auto 5px;
